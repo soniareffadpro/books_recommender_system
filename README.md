@@ -46,8 +46,8 @@ It provides an interactive **Streamlit interface** where users can select a book
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/soniareffadpro/Book-Recommender-System.git
-cd Book-Recommender-System
+https://github.com/soniareffadpro/books_recommender_system.git
+cd books_recommender_system
 ```
 
 2. Create a virtual environment (optional but recommended):
