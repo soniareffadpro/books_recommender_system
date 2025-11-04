@@ -42,24 +42,6 @@ It provides an interactive **Streamlit interface** where users can select a book
 
 
 
-
-## ⚙️ Project Workflow
-
-1. **Data Collection & Preprocessing**
-   - Dataset downloaded from [Kaggle Book Recommendation Dataset](https://www.kaggle.com/datasets/ra4u12/bookrecommendation)
-   - Cleaned and merged using pandas in a Jupyter notebook  
-   - Created a **user-item matrix** for ratings  
-
-2. **Model Building**
-   - Implemented **KNN** using cosine similarity to measure relationships between books  
-   - Stored the trained model and intermediate data in `artifacts/`  
-
-3. **Web App**
-   - Built using **Streamlit** for interactivity  
-   - Allows users to select a book and get top 5 similar book recommendations with cover images  
-
----
-
 ## 🚀 Setup
 
 1. Clone the repository:
