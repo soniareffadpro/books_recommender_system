@@ -1,0 +1,78 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# ========================================
+# Jupyter Notebook
+# ========================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================================
+# Streamlit
+# ========================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ========================================
+# Build / Packaging
+# ========================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# System / OS files
+# ========================================
+.DS_Store
+Thumbs.db
+
+# ========================================
+# Logs / Temp files
+# ========================================
+*.log
+*.tmp
+*.bak
+
+# ========================================
+# Project specific
+# ========================================
+artifacts/*.pkl
+data/*.csv
+
+# ========================================
+# IDE / Editors
+# ========================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================================
+# Environment and cache files
+# ========================================
+.env
+*.env
+*.cache
+__pycache__/
